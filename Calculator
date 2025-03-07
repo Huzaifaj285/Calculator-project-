@@ -1,5 +1,6 @@
 Count<<"my name is:"<<Huzaifa Javed";
 Count<<"my roll no is:"<<24-ST-28";
+ Subtraction
 ```
  Multiplication
 Division
@@ -20,6 +21,11 @@ public static int SubtractNumbers(int a, int b)
 {
     return a - b;
  Subtraction
+
+public static int AddNumbers(int a, int b)
+{
+    return a + b;
+ Addition
 }
 ```
 
@@ -30,6 +36,7 @@ public class Program
 {
     public static void Main()
     {
+Subtraction
  Multiplication
 Division
         double a = 20;
@@ -66,3 +73,11 @@ Multiplication
 }
 ```
 Subtraction
+
+        int a = 10;
+        int b = 20;
+        int sum = AddNumbers(a, b);
+        Console.WriteLine("The sum of " + a + " and " + b + " is: " + sum);
+    }
+}
+ Addition
