@@ -1,2 +1,36 @@
 Count<<"my name is:"<<Huzaifa Javed";
 Count<<"my roll no is:"<<24-ST-28";
+```
+public static double DivideNumbers(double a, double b)
+{
+    if (b == 0)
+    {
+        throw new DivideByZeroException("Cannot divide by zero");
+    }
+    return a / b;
+}
+```
+
+You can use this method like this:
+
+```
+public class Program
+{
+    public static void Main()
+    {
+        double a = 20;
+        double b = 10;
+        try
+        {
+            double quotient = DivideNumbers(a, b);
+            Console.WriteLine("The quotient of " + a + " and " + b + " is: " + quotient);
+        }
+        catch (DivideByZeroException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}
+```
+
+Note: This code checks for division by zero and throws an exception if the divisor is zero. The `Main` method catches and handles this exception.
