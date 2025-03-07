@@ -1,6 +1,7 @@
 Count<<"my name is:"<<Huzaifa Javed";
 Count<<"my roll no is:"<<24-ST-28";
 ```
+ Multiplication
 Division
 public static double DivideNumbers(double a, double b)
 {
@@ -14,6 +15,11 @@ public static int MultiplyNumbers(int a, int b)
 {
     return a * b;
  Multiplication
+
+public static int SubtractNumbers(int a, int b)
+{
+    return a - b;
+ Subtraction
 }
 ```
 
@@ -24,6 +30,7 @@ public class Program
 {
     public static void Main()
     {
+ Multiplication
 Division
         double a = 20;
         double b = 10;
@@ -41,7 +48,7 @@ Division
 ```
 
 Note: This code checks for division by zero and throws an exception if the divisor is zero. The `Main` method catches and handles this exception.
-=======
+
         int a = 10;
         int b = 20;
         int product = MultiplyNumbers(a, b);
@@ -50,3 +57,12 @@ Note: This code checks for division by zero and throws an exception if the divis
 }
 ```
 Multiplication
+
+        int a = 20;
+        int b = 10;
+        int difference = SubtractNumbers(a, b);
+        Console.WriteLine("The difference between " + a + " and " + b + " is: " + difference);
+    }
+}
+```
+Subtraction
