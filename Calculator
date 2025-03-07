@@ -1,6 +1,7 @@
 Count<<"my name is:"<<Huzaifa Javed";
 Count<<"my roll no is:"<<24-ST-28";
 ```
+Division
 public static double DivideNumbers(double a, double b)
 {
     if (b == 0)
@@ -8,6 +9,11 @@ public static double DivideNumbers(double a, double b)
         throw new DivideByZeroException("Cannot divide by zero");
     }
     return a / b;
+
+public static int MultiplyNumbers(int a, int b)
+{
+    return a * b;
+ Multiplication
 }
 ```
 
@@ -18,6 +24,7 @@ public class Program
 {
     public static void Main()
     {
+Division
         double a = 20;
         double b = 10;
         try
@@ -34,3 +41,12 @@ public class Program
 ```
 
 Note: This code checks for division by zero and throws an exception if the divisor is zero. The `Main` method catches and handles this exception.
+=======
+        int a = 10;
+        int b = 20;
+        int product = MultiplyNumbers(a, b);
+        Console.WriteLine("The product of " + a + " and " + b + " is: " + product);
+    }
+}
+```
+Multiplication
